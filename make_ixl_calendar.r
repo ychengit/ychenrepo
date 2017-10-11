@@ -1,12 +1,13 @@
 make_ixl_calendar <- function() {
-    x_vec_subject_name = c("Geometry", "Langugage 10th Grade", "Science 9th Grade", "Social 9th Grade", "Spanish");
     x_vec_geometry = c(10, 8, 7, 6, 12);
     x_vec_language = c(10, 3, 5);
     x_vec_science = c(10, 2, 8);
     x_vec_social = c(10, 5, 7);
     x_vec_spanish = c(2, 3);
     x_list_subject_section = list(x_vec_geometry, x_vec_language, x_vec_science, x_vec_social, x_vec_spanish);
-
+    x_vec_subject_name = c("Geometry", "Langugage 10th Grade", "Science 9th Grade", "Social 9th Grade", "Spanish");
+    x_vec_subject_start_date = c("2017-10-10", "2017-10-10", "2017-10-10", "2017-10-10", "2017-10-10");
+    
     
     xa = 0;
     for (x_vec_a in x_list_subject_section) {
